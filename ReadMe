@@ -1,0 +1,118 @@
+# 🌾 Raitha-Bharosa Hub – Smart Sowing Assistant
+
+## 📌 Project Overview
+Raitha-Bharosa Hub is an AI-powered Android application designed to help farmers make smarter agricultural decisions using weather analysis, soil conditions, and crop-based recommendations.
+
+The application acts as a Smart Sowing Assistant that provides real-time farming guidance such as optimal sowing periods, fertilizer scheduling, irrigation recommendations, and weather alerts.
+
+The app is designed especially for rural farmers with a simple interface and support for Kannada and English languages.
+
+---
+
+# 🚜 Problem Statement
+Farmers often rely on traditional intuition for sowing and fertilization decisions. Due to changing climate conditions, irregular rainfall, and soil degradation, these methods are becoming less reliable.
+
+Missing the optimal sowing window can lead to:
+- Reduced crop yield
+- Seed wastage
+- Improper fertilizer usage
+- Financial losses
+
+Raitha-Bharosa Hub solves this problem by converting weather and soil data into simple actionable farming recommendations.
+
+---
+
+# 🎯 Objectives
+- Help farmers identify the best sowing time
+- Provide weather-based farming alerts
+- Improve fertilizer management
+- Reduce seed wastage
+- Promote sustainable farming practices
+- Increase digital accessibility for farmers
+
+---
+
+# ✨ Features
+
+## 👨‍🌾 Farmer Registration
+- User profile setup
+- Crop selection
+- Language selection (Kannada / English)
+
+## 📊 Smart Dashboard
+- Displays Sowing Index
+- Weather conditions
+- Crop health indicators
+- Soil analysis
+
+## 🌱 Soil Data Management
+Farmers can manually enter:
+- Nitrogen (N)
+- Phosphorus (P)
+- Potassium (K)
+- Moisture levels
+
+## 📅 Krishi Calendar
+- 7-day farming action plan
+- Fertilizer reminders
+- Rainfall warnings
+- Activity scheduling
+
+## ☁️ Weather Monitoring
+- Real-time weather updates
+- Temperature tracking
+- Rain prediction
+- Humidity analysis
+
+## 📚 Farming History
+- Crop history tracking
+- Seasonal activity logs
+- Yield comparison
+
+---
+
+# 🛠️ Technologies Used
+
+- Kotlin
+- Android Studio
+- Jetpack Compose
+- MVVM Architecture
+- Room Database
+- Retrofit
+- OpenWeatherMap API
+- JSON Data Simulation
+- Material Design UI
+- GenAI-based Recommendation Logic
+
+---
+
+# 🏗️ Architecture
+The application follows the MVVM (Model-View-ViewModel) architecture for clean code management and scalability.
+
+### Components:
+- Model → Handles data and database
+- View → UI screens using Jetpack Compose
+- ViewModel → Business logic and state management
+
+---
+
+# 🔄 Application Workflow
+
+1. Farmer opens the application
+2. User registers crop details
+3. Soil and weather data are analyzed
+4. Sowing Index is generated
+5. Recommendations are displayed
+6. Alerts are provided for farming activities
+
+---
+
+# 🧪 Simulation Logic
+
+The project includes a simulated data generator.
+
+Example:
+```kotlin
+if (moisture > 30) {
+    display("Soil too wet to sow")
+}
